@@ -4,10 +4,13 @@
 <head>
 
   <title>Availability checker</title>
-
 </head>
 
 <body>
   <h1>There are {{num}} people at Tisch right now</h1>
+  <button onclick="increment()">Increment</button>
+  <button onclick="decrement()">Decrement</button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
