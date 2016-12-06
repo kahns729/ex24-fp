@@ -46,7 +46,6 @@ function decrement() {
 }
 
 function update_counter(count) {
-	console.log(count);
 	// console.log($("#counter").html());
 	$("#counter").text(count.toString());
 }
