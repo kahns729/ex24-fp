@@ -6,7 +6,7 @@ function init() {
 	  }, function(err) {
 	  	console.log(err);
 	  })
-	}, 3000);
+	}, 1000);
 }
 
 function get_count() {
