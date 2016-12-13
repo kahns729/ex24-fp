@@ -1,0 +1,37 @@
+/* rounded corners */
+#rcorners1 {
+    border-radius: 15px 50px;
+    border: 3px dotted #44220E;
+    background: #8FBEDF;
+     padding: 20px 30px 40px 30px; 
+    width: 500px;
+    height: 72px;
+    font-family:Georgia,serif;
+    text-align:center;    
+}
+
+/* header text */
+#headline {
+	color: #764121;
+	font-size:36px;
+	text-align:center;
+	font-family:Georgia,serif;
+}
+
+/* alternate header text */
+#counter {
+	color: #44220E;
+}
+
+/* paragraph text */
+p {
+    color: #764121;
+    font-family:"Verdana", Geneva, sans-serif;
+    text-align:center;
+    padding:0 200px 0 200px;
+}
+
+/* bg color */
+body {
+    background-color: #AFD8F5;
+}

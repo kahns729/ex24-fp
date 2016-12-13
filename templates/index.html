@@ -1,16 +1,13 @@
 <!doctype html>
 
 <html lang="en">
-<head>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+	  	<title>Availability Checker</title>
+	</head>
+		<h1 id="headline"><center><p id=rcorners1>There are <span id="counter">{{num}}</span> people in Carm right now!</p></center></h1>
 
-  <title>Availability checker</title>
-</head>
+		<p>This website allows people who visit it to check the occupancy in Carmichael Dining Hall. We find it may be useful for those who want to have a meal but aren't sure if they will find a seat or not.</p>
 
-<body onload="init()">
-  <h1>There are <span id="counter">{{num}}</span> people at Tisch right now</h1>
-  <button onclick="increment()">Increment</button>
-  <button onclick="decrement()">Decrement</button>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
-</body>
+		<p>We have created this system as a final project for the our Creativity, Fabrication, & Problem Solving Class.</p>
 </html>
